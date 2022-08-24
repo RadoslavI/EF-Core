@@ -1,0 +1,16 @@
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.deps.json
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.runtimeconfig.json
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.runtimeconfig.dev.json
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.dll
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.pdb
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.Models.dll
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\bin\Debug\netcoreapp3.1\P01_StudentSystem.Data.Models.pdb
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.csproj.AssemblyReference.cache
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.AssemblyInfoInputs.cache
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.AssemblyInfo.cs
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.csproj.CopyComplete
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.dll
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.pdb
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P01_StudentSystem.Data\obj\Debug\netcoreapp3.1\P01_StudentSystem.Data.genruntimeconfig.cache

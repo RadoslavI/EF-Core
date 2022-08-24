@@ -1,0 +1,13 @@
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.deps.json
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.dll
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.pdb
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Common.dll
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp3.1\P03_FootballBetting.Data.Common.pdb
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csproj.AssemblyReference.cache
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.AssemblyInfoInputs.cache
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.AssemblyInfo.cs
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.csproj.CopyComplete
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.dll
+C:\Users\saske\Documents\GitHub\EF-Core\04.Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp3.1\P03_FootballBetting.Data.Models.pdb
