@@ -1,5 +1,9 @@
-﻿namespace PetStore.Web
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using PetStore.Data;
+namespace PetStore.Web
 {
+    using System;
     using System.Reflection;
 
     using Data;
@@ -26,16 +30,25 @@
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
+            //builder.Services.AddDbContext<ApplicationDbContext>(options => 
+            //    options.UseSqlServer(connectionString));
+
+            //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+            //    .AddEntityFrameworkStores<ApplicationDbContext>();
             ConfigureServices(builder.Services, builder.Configuration);
             var app = builder.Build();
             Configure(app);
+            app.UseAuthentication();;
             app.Run();
         }
 
         private static void ConfigureServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(
-                options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+                options => options
+                    .UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
+                    .UseLazyLoadingProxies());
 
             services.AddDefaultIdentity<ApplicationUser>(IdentityOptionsProvider.GetIdentityOptions)
                 .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>();
@@ -65,6 +78,8 @@
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
+            services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<ICategoryService, CategoryService>();
         }
 
         private static void Configure(WebApplication app)
