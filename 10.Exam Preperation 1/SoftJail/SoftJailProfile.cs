@@ -12,6 +12,7 @@
             CreateMap<ImportDepartmentCellDto, Cell>();
 
             CreateMap<ImportPrisonerMailDto, Mail>();
+
         }
     }
 }

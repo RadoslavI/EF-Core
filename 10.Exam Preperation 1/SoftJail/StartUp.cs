@@ -22,7 +22,7 @@
             ImportEntities(context, projectDir + @"Datasets/", projectDir + @"ImportResults/");
 
             //Problem 03
-            //ExportEntities(context, projectDir + @"ExportResults/");
+            ExportEntities(context, projectDir + @"ExportResults/");
 
             using (var transaction = context.Database.BeginTransaction())
             {
@@ -42,8 +42,8 @@
                     File.ReadAllText(baseDir + "ImportPrisonersMails.json"));
             PrintAndExportEntityToFile(prisonersMails, exportDir + "ImportPrisonersMails.txt");
 
-            //var officersPrisoners = DataProcessor.Deserializer.ImportOfficersPrisoners(context, File.ReadAllText(baseDir + "ImportOfficersPrisoners.xml"));
-            //PrintAndExportEntityToFile(officersPrisoners, exportDir + "ImportOfficersPrisoners.txt");
+            var officersPrisoners = DataProcessor.Deserializer.ImportOfficersPrisoners(context, File.ReadAllText(baseDir + "ImportOfficersPrisoners.xml"));
+            PrintAndExportEntityToFile(officersPrisoners, exportDir + "ImportOfficersPrisoners.txt");
         }
 
         private static void ExportEntities(SoftJailDbContext context, string exportDir)
@@ -52,9 +52,9 @@
             Console.WriteLine(jsonOutput);
             File.WriteAllText(exportDir + "PrisonersByCells.json", jsonOutput);
 
-            var xmlOutput = DataProcessor.Serializer.ExportPrisonersInbox(context, "Melanie Simonich,Diana Ebbs,Binni Cornhill");
-            Console.WriteLine(xmlOutput);
-            File.WriteAllText(exportDir + "PrisonersInbox.xml", xmlOutput);
+            //var xmlOutput = DataProcessor.Serializer.ExportPrisonersInbox(context, "Melanie Simonich,Diana Ebbs,Binni Cornhill");
+            //Console.WriteLine(xmlOutput);
+            //File.WriteAllText(exportDir + "PrisonersInbox.xml", xmlOutput);
         }
         private static void ResetDatabase(SoftJailDbContext context, bool shouldDropDatabase = false)
         {
