@@ -52,9 +52,9 @@
             Console.WriteLine(jsonOutput);
             File.WriteAllText(exportDir + "PrisonersByCells.json", jsonOutput);
 
-            //var xmlOutput = DataProcessor.Serializer.ExportPrisonersInbox(context, "Melanie Simonich,Diana Ebbs,Binni Cornhill");
-            //Console.WriteLine(xmlOutput);
-            //File.WriteAllText(exportDir + "PrisonersInbox.xml", xmlOutput);
+            var xmlOutput = DataProcessor.Serializer.ExportPrisonersInbox(context, "Melanie Simonich,Diana Ebbs,Binni Cornhill");
+            Console.WriteLine(xmlOutput);
+            File.WriteAllText(exportDir + "PrisonersInbox.xml", xmlOutput);
         }
         private static void ResetDatabase(SoftJailDbContext context, bool shouldDropDatabase = false)
         {
